@@ -11,11 +11,11 @@ quantities such as the learning rate) remain stable during training (neither
 shrink nor explode) with the model size (i.e. width and depth).
 
 
-## Key original papers (width-only μP)
-* [Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522)
-* [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466)
-* [Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit](https://arxiv.org/abs/2308.01814)
-* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813)
+## Key papers (width-only μP)
+* [Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): original paper introducing μP for SGD building on the "Tensor Programs" formalism. The main motivation was to find a parameterisation that both (i) allows for as much feature learning as possible (μP is maximal in this sense) unlike the NTK, and (ii) remains stable with respect to the model width, unlike the standard parameterisation.
+* [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466): building on the previous paper, this shows that under μP, many optimal hyperparameters such as the learning rate also remain stable across models (including GPT-3) of different width, allowing for zero-shot hyperparameter transfer without tuning at large scale. It also extends μP for Adam beyond SGD.
+* [Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit](https://arxiv.org/abs/2308.01814): fully works out the μP theory for adaptive optimisers including Adam.
+* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices. Note that this inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
 
 
 ## Depth extensions (depth-μP)
