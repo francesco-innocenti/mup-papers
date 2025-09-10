@@ -26,6 +26,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 
 
 ## Other extensions
+* [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712)
 * [The Optimization Landscape of SGD Across the Feature Learning Strength](https://arxiv.org/abs/2410.04642)
 * [On the Parameterization of Second-Order Optimization Effective Towards the Infinite Width](https://arxiv.org/abs/2312.12226)
 * [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
@@ -39,6 +40,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 
 
 ## Miscellaneous
+* [Lecture Notes on Infinite-Width Limits of Neural Networks](https://mlschool.princeton.edu/sites/g/files/toruqf5946/files/documents/Princeton___Lecture_Notes_0.pdf)
 * [Feature-Learning Networks Are Consistent Across Widths At Realistic Scales](https://proceedings.neurips.cc/paper_files/paper/2023/hash/03600ae6c3392fd65ad7c3a90c6f7ce8-Abstract-Conference.html)
 * [On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling](https://arxiv.org/abs/2505.22491)
 * [A thorough reproduction and evaluation of μP](https://openreview.net/forum?id=AFxEdJwQcp)
