@@ -18,7 +18,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices. Note that this partly inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
 
 
-## Depth extensions ("depth-μP")
+## Depth extensions
 * [Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): concurrently with the following paper, this proposed an extension of μP to model depth for ResNets (with unit block depth) by rescaling each residual block and parameter update by the square root of the depth. Experiments with fully connected ResNets on CIFAR10.
 * [Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit](https://arxiv.org/abs/2309.16620): concurrently with the previous paper, this proposed a slightly different depth-extension of μP using dynamical mean field theory (DMFT). Unlike Yang et al. (2024), they do not rescale the learning rate of Adam, but it is reintroduced in the following paper. Experiments with both CNNs and ViTs (with and without LayerNorm) on both CIFAR10 and ImageNet.
 * [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712): also relying on DMFT, derives width and depth limits for multi-head attention transformers, providing principled scalings for SGD and heuristic scalings for Adam.
@@ -39,6 +39,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
 * [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
 * [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
+* [Function-Space Learning Rates](https://arxiv.org/abs/2502.17405)
 
 
 ## Miscellaneous
