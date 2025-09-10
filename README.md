@@ -15,26 +15,28 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): original paper introducing μP for SGD building on the "Tensor Programs" formalism. The main motivation was to find a parameterisation that both (i) allows for as much feature learning as possible (μP is maximal in this sense) unlike the NTK, and (ii) remains stable with respect to the model width, unlike the standard parameterisation.
 * [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466): building on the previous paper, this shows that under μP, many optimal hyperparameters such as the learning rate also remain stable across models (including GPT-3) of different width, allowing for zero-shot hyperparameter transfer without tuning at large scale. It also extends μP for Adam beyond SGD.
 * [Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit](https://arxiv.org/abs/2308.01814): fully works out the μP theory for adaptive optimisers including Adam.
-* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices. Note that this inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
+* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices. Note that this partly inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
 
 
-## Depth extensions (depth-μP)
-* [Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522)
-* [Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit](https://arxiv.org/abs/2309.16620)
-* [Super Consistency of Neural Network Landscapes and Learning Rate Transfer](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ba1d33849b963efc6b5d3082ad68f480-Abstract-Conference.html)
-* [Don’t be lazy: CompleteP enables compute-efficient deep transformers](https://arxiv.org/abs/2505.01618)
+## Depth extensions ("depth-μP")
+* [Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): concurrently with the following paper, this proposed an extension of μP to model depth for ResNets (with unit block depth) by rescaling each residual block and parameter update by the square root of the depth. Experiments with fully connected ResNets on CIFAR10.
+* [Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit](https://arxiv.org/abs/2309.16620): concurrently with the previous paper, this proposed a slightly different depth-extension of μP using dynamical mean field theory (DMFT). Unlike Yang et al. (2024), they do not rescale the learning rate of Adam, but it is reintroduced in the following paper. Experiments with both CNNs and ViTs (with and without LayerNorm) on both CIFAR10 and ImageNet.
+* [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712): also relying on DMFT, derives width and depth limits for multi-head attention transformers, providing principled scalings for SGD and heuristic scalings for Adam.
+* [Super Consistency of Neural Network Landscapes and Learning Rate Transfer](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ba1d33849b963efc6b5d3082ad68f480-Abstract-Conference.html): investigates the phenomenon of learning rate transfer from an optimisation perspective, showing that under μP and its depth extension (but not the NTK), certain quantities including the largest eigenvalue of the loss Hessian (aka sharpness) remain consistent across different scales (i.e. model widths and depths). Comprehensive experiments with ResNets, ViTs and GPT-2.
+* [Don’t be lazy: CompleteP enables compute-efficient deep transformers](https://arxiv.org/abs/2505.01618): In contrast to previous depth extensions of μP, this proposes rescaling the residual transformer blocks by the depth (rather than its square root) based on both empirical results and a theoretical notion of non-lazy/feature learning of all model layers.
 
 
 ## Other extensions
-* [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712)
 * [The Optimization Landscape of SGD Across the Feature Learning Strength](https://arxiv.org/abs/2410.04642)
 * [On the Parameterization of Second-Order Optimization Effective Towards the Infinite Width](https://arxiv.org/abs/2312.12226)
 * [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
 * [Scaling Diffusion Transformers Efficiently via μP](https://arxiv.org/abs/2505.15270)
 * [Optimal Embedding Learning Rate in LLMs: The Effect of Vocabulary Size](https://arxiv.org/abs/2506.15025)
 * [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
+* [Effective Sharpness Aware Minimization Requires Layerwise Perturbation Scaling](https://openreview.net/forum?id=Qo6KUhQkPw)
 * [Sparse maximal update parameterization: A holistic approach to sparse training dynamics](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3b6aaffec941f98930753fa6d6de7263-Abstract-Conference.html)
 * [μnit Scaling: Simple and Scalable FP8 LLM Training](https://arxiv.org/abs/2502.05967)
+* [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
 * [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
 * [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
 
