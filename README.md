@@ -11,6 +11,13 @@ quantities such as the learning rate) remain stable during training (neither
 shrink nor explode) with the model size (i.e. width and depth).
 
 
+## Overview
+* [Key papers](#key-papers-width-only-μp)
+* [Depth extensions](#depth-extensions)
+* [Other extensions](#other-extensions)
+* [Miscellaneous](#miscellaneous)
+
+
 ## Key papers (width-only μP)
 * [Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): original paper introducing μP for SGD building on the "Tensor Programs" formalism. The main motivation was to find a parameterisation that both (i) allows for as much feature learning as possible (μP is maximal in this sense) unlike the NTK, and (ii) remains stable with respect to the model width, unlike the standard parameterisation.
 * [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466): building on the previous paper, this shows that under μP, many optimal hyperparameters such as the learning rate also remain stable across models (including GPT-3) of different width, allowing for zero-shot hyperparameter transfer without tuning at large scale. It also extends μP for Adam beyond SGD.
