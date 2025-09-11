@@ -16,6 +16,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Depth extensions](#depth-extensions)
 * [Other extensions](#other-extensions)
 * [Miscellaneous](#miscellaneous)
+* [Further resources](#further-resources)
 
 
 ## Key papers (width-only μP)
