@@ -33,12 +33,12 @@ shrink nor explode) with the model size (i.e. width and depth).
 ## Other extensions
 * [u-μP: The Unit-Scaled Maximal Update Parametrization](https://arxiv.org/abs/2407.17465): proposes a simple extension of μP for LLMs such that activations, weights and gradients have unit (rather than just constant) variance (u-μP) with respect to model width, showing that it helps with low-precision training.
 * [μnit Scaling: Simple and Scalable FP8 LLM Training](https://arxiv.org/abs/2502.05967): proposes a more efficient unit-scaled μP parameterisation for low-precision LLM training.
-* [On the Parameterization of Second-Order Optimization Effective Towards the Infinite Width](https://arxiv.org/abs/2312.12226): derives a feature-learning (μP-like) infinite-width limit parameterisation for second-order methods including K-FAC and Shampoo. Experiments with MLPs, CNNs, ResNets and a simplified language model on simple datasets.
-* [Effective Sharpness Aware Minimization Requires Layerwise Perturbation Scaling](https://openreview.net/forum?id=Qo6KUhQkPw)
-* [Sparse maximal update parameterization: A holistic approach to sparse training dynamics](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3b6aaffec941f98930753fa6d6de7263-Abstract-Conference.html)
+* [On the Parameterization of Second-Order Optimization Effective Towards the Infinite Width](https://arxiv.org/abs/2312.12226): derives a feature-learning (μP-like) infinite-width limit parameterisation for second-order methods including K-FAC and Shampoo. Experiments with MLPs, CNNs, ResNets and a simplified language model.
+* [Effective Sharpness Aware Minimization Requires Layerwise Perturbation Scaling](https://openreview.net/forum?id=Qo6KUhQkPw): derives a μP extension for sharpness aware minimisation (SAM) with stable learning rate and perturbation radius across model widths. Experiments with MLPs, ResNets & ViTs.
+* [Sparse maximal update parameterization: A holistic approach to sparse training dynamics](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3b6aaffec941f98930753fa6d6de7263-Abstract-Conference.html): derives a μP extension for random unstructured static (weight) sparsity with stable feature learning across both model widths and sparsity level. Experiments with LLMs.
+* [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
 * [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
 * [The Optimization Landscape of SGD Across the Feature Learning Strength](https://arxiv.org/abs/2410.04642)
-* [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
 * [Scaling Diffusion Transformers Efficiently via μP](https://arxiv.org/abs/2505.15270)
 * [Optimal Embedding Learning Rate in LLMs: The Effect of Vocabulary Size](https://arxiv.org/abs/2506.15025)
 * [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
