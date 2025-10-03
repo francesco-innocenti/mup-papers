@@ -44,6 +44,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
 * [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
 * [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
+* [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
 
 
 ## Miscellaneous
