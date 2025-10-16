@@ -57,6 +57,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling](https://arxiv.org/abs/2505.22491)
 * [A large-scale exploration of μ-transfer](https://arxiv.org/abs/2404.05728v5)
 * [A thorough reproduction and evaluation of μP](https://openreview.net/forum?id=AFxEdJwQcp)
+* [The lazy (NTK) & rich (μP) regimes: A gentle tutorial](https://arxiv.org/abs/2404.19719)
 
 
 ## Further resources
