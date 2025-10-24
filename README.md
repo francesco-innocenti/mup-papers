@@ -32,7 +32,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 
 ## On weight decay
 The role of weight decay with respect to depth-transfer is discussed in the 
-[completeP work](https://arxiv.org/abs/2505.01618) (Dey et al., 2025).
+[CompleteP work](https://arxiv.org/abs/2505.01618) (Dey et al., 2025).
 * [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
 * [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
 * [Weight Decay may matter more than muP for Learning Rate Transfer in Practice](https://arxiv.org/abs/2510.19093)
