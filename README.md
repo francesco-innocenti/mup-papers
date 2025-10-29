@@ -51,6 +51,11 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
 * [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
+* [Transfer Paramatters: Optimal per-Module Hyperparameters Across All Scaling Axes](https://openreview.net/forum?id=elB9k4nTL1)
+* [Extending μP: Spectral Conditions for Feature Learning Across Optimizers](https://openreview.net/forum?id=TfJ67nPJl2)
+* [GQA-μP: The Maximal Parameterization Update for Grouped Query Attention and Fully Sharded Data Parallel](https://openreview.net/forum?id=UJB2uOS9MR)
+* [μLO: Compute-Efficient Meta-Generalization of Learned Optimizers](https://openreview.net/forum?id=f8z2bzOLK2)
+* [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
 
 
 ## Miscellaneous
@@ -64,6 +69,8 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [A large-scale exploration of μ-transfer](https://arxiv.org/abs/2404.05728v5)
 * [A thorough reproduction and evaluation of μP](https://openreview.net/forum?id=AFxEdJwQcp)
 * [The lazy (NTK) & rich (μP) regimes: A gentle tutorial](https://arxiv.org/abs/2404.19719)
+* [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
+* [μP for RL: Mitigating Feature Inconsistencies During Reinforcement Learning](https://openreview.net/forum?id=Wuy631kHwH)
 
 
 ## Further resources
