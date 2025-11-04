@@ -71,7 +71,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [The lazy (NTK) & rich (μP) regimes: A gentle tutorial](https://arxiv.org/abs/2404.19719)
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
 * [μP for RL: Mitigating Feature Inconsistencies During Reinforcement Learning](https://openreview.net/forum?id=Wuy631kHwH)
-
+* [A Proof of Learning Rate Transfer under μP](https://arxiv.org/abs/2511.01734)
 
 ## Further resources
 
