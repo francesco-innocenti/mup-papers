@@ -36,6 +36,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
 * [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
 * [Weight Decay may matter more than muP for Learning Rate Transfer in Practice](https://arxiv.org/abs/2510.19093)
+* [Robust Layerwise Scaling Rules by Proper Weight Decay Tuning](https://arxiv.org/abs/2510.15262)
 
 
 ## Other extensions
@@ -72,6 +73,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
 * [μP for RL: Mitigating Feature Inconsistencies During Reinforcement Learning](https://openreview.net/forum?id=Wuy631kHwH)
 * [A Proof of Learning Rate Transfer under μP](https://arxiv.org/abs/2511.01734)
+
 
 ## Further resources
 
