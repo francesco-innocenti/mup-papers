@@ -57,6 +57,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [GQA-μP: The Maximal Parameterization Update for Grouped Query Attention and Fully Sharded Data Parallel](https://openreview.net/forum?id=UJB2uOS9MR)
 * [μLO: Compute-Efficient Meta-Generalization of Learned Optimizers](https://openreview.net/forum?id=f8z2bzOLK2)
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
+* [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
 
 
 ## Miscellaneous
