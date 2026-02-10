@@ -59,6 +59,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
 * [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
+* [Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning](https://www.arxiv.org/abs/2602.06204)
 
 
 ## Miscellaneous
