@@ -60,6 +60,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning](https://www.arxiv.org/abs/2602.06204)
+* [Hyperparameter Transfer Enables Consistent Gains of Matrix-Preconditioned Optimizers Across Scales](https://arxiv.org/abs/2512.05620)
 
 
 ## Miscellaneous
