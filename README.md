@@ -61,6 +61,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning](https://www.arxiv.org/abs/2602.06204)
 * [Hyperparameter Transfer Enables Consistent Gains of Matrix-Preconditioned Optimizers Across Scales](https://arxiv.org/abs/2512.05620)
+* [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
 
 
 ## Miscellaneous
