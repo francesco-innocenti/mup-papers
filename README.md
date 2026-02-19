@@ -85,9 +85,9 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Scaling Exponents Across Parameterizations and Optimizers](https://arxiv.org/abs/2407.05872)
 * [Scaling Collapse Reveals Universal Dynamics in Compute-Optimally Trained Neural Networks](https://arxiv.org/abs/2507.02119)
 * [On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling](https://arxiv.org/abs/2505.22491)
-* [A large-scale exploration of μ-transfer](https://arxiv.org/abs/2404.05728v5)
 * [A thorough reproduction and evaluation of μP](https://openreview.net/forum?id=AFxEdJwQcp)
 * [The lazy (NTK) & rich (μP) regimes: A gentle tutorial](https://arxiv.org/abs/2404.19719)
+* [An Empirical Study of μP Learning Rate Transfer](https://arxiv.org/abs/2404.05728)
 * [μP for RL: Mitigating Feature Inconsistencies During Reinforcement Learning](https://openreview.net/forum?id=Wuy631kHwH)
 
 
