@@ -11,7 +11,10 @@ shrink nor explode) with the model size (i.e. width and depth).
 ## Overview
 * [Key papers](#key-papers-width-only-μp)
 * [Depth extensions](#depth-extensions)
-* [Other extensions](#other-extensions)
+* [Understanding hyperparameter transfer](#understanding-hyperparameter-transfer)
+* [Other optimisers](#other-optimisers)
+* [Other architectures](#other-architectures)
+* [On weight decay](#on-weight-decay)
 * [Miscellaneous](#miscellaneous)
 * [Further resources](#further-resources)
 
@@ -35,15 +38,6 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On the Provable Separation of Scales in Maximal Update Parameterization](https://openreview.net/forum?id=csB1njlpjM)
 * [A Proof of Learning Rate Transfer under μP](https://arxiv.org/abs/2511.01734)
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
-
-
-## On weight decay
-The role of weight decay with respect to depth-transfer is discussed in the 
-[CompleteP work](https://arxiv.org/abs/2505.01618) (Dey et al., 2025).
-* [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
-* [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
-* [Weight Decay may matter more than muP for Learning Rate Transfer in Practice](https://arxiv.org/abs/2510.19093)
-* [Robust Layerwise Scaling Rules by Proper Weight Decay Tuning](https://arxiv.org/abs/2510.15262)
 
 
 ## Other optimisers
@@ -71,6 +65,15 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
+
+
+## On weight decay
+The role of weight decay with respect to depth-transfer is discussed in the 
+[CompleteP work](https://arxiv.org/abs/2505.01618) (Dey et al., 2025).
+* [How to set AdamW's weight decay as you scale model and dataset size](https://arxiv.org/abs/2405.13698)
+* [Power Lines: Scaling Laws for Weight Decay and Batch Size in LLM Pre-training](https://arxiv.org/abs/2505.13738)
+* [Weight Decay may matter more than muP for Learning Rate Transfer in Practice](https://arxiv.org/abs/2510.19093)
+* [Robust Layerwise Scaling Rules by Proper Weight Decay Tuning](https://arxiv.org/abs/2510.15262)
 
 
 ## Miscellaneous
