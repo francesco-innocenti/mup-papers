@@ -66,6 +66,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
+* [μpscaling small models: Principled warm starts and hyperparameter transfer](https://arxiv.org/abs/2602.10545)
 
 
 ## On weight decay
@@ -82,6 +83,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [Feature-Learning Networks Are Consistent Across Widths At Realistic Scales](https://proceedings.neurips.cc/paper_files/paper/2023/hash/03600ae6c3392fd65ad7c3a90c6f7ce8-Abstract-Conference.html): empirically shows that the behaviour of finite-width networks is remarkably consistent across model widths used in practice, validating μP. See the next paper for a similar study also considering depth.
 * [Function-Space Learning Rates](https://arxiv.org/abs/2502.17405): impressive paper developing an efficient method (requiring only a few extra backward passes) to measure the change in the network function induced by parameter updates to achieve hyperparameter transfer across width, depth and even LoRA rank for many architectures including transformers. The empirical nature of this approach has the advantage, over μP, of not needing to derive scalings on a case-by-case basis.
 * [The Optimization Landscape of SGD Across the Feature Learning Strength](https://arxiv.org/abs/2410.04642)
+* [Over-Alignment vs Over-Fitting: The Role of Feature Learning Strength in Generalization](https://arxiv.org/abs/2602.00827)
 * [Scaling Exponents Across Parameterizations and Optimizers](https://arxiv.org/abs/2407.05872)
 * [Scaling Collapse Reveals Universal Dynamics in Compute-Optimally Trained Neural Networks](https://arxiv.org/abs/2507.02119)
 * [On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling](https://arxiv.org/abs/2505.22491)
