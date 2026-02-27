@@ -12,6 +12,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Key papers](#key-papers-width-only-μp)
 * [Depth extensions](#depth-extensions)
 * [Understanding hyperparameter transfer](#understanding-hyperparameter-transfer)
+* [Spectral perspective](#spectral-perspective)
 * [Other optimisers](#other-optimisers)
 * [Other architectures](#other-architectures)
 * [On weight decay](#on-weight-decay)
