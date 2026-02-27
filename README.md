@@ -23,7 +23,6 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522): original paper introducing μP for SGD building on the "Tensor Programs" formalism. The main motivation was to find a parameterisation that both (i) allows for as much feature learning as possible (μP is maximal in this sense) unlike the NTK, and (ii) remains stable with respect to the model width, unlike the standard parameterisation.
 * [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466): building on the previous paper, this shows that under μP, many optimal hyperparameters such as the learning rate also remain stable across models (including GPT-3) of different width, allowing for zero-shot hyperparameter transfer without tuning at large scale. It also extends μP for Adam beyond SGD.
 * [Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit](https://arxiv.org/abs/2308.01814): fully works out the μP theory for adaptive optimisers including Adam.
-* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices and their updates. This partly inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
 
 
 ## Depth extensions
@@ -41,11 +40,15 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
 
 
+## Spectral perspective
+* [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices and their updates. This partly inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
+* [Extending μP: Spectral Conditions for Feature Learning Across Optimizers](https://openreview.net/forum?id=TfJ67nPJl2)
+* [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
+
+
 ## Other optimisers
 * [On the Parameterization of Second-Order Optimization Effective Towards the Infinite Width](https://arxiv.org/abs/2312.12226): derives a feature-learning (μP-like) infinite-width limit parameterisation for second-order methods including K-FAC and Shampoo. Experiments with MLPs, CNNs, ResNets and a simplified language model.
 * [Effective Sharpness Aware Minimization Requires Layerwise Perturbation Scaling](https://openreview.net/forum?id=Qo6KUhQkPw): derives a μP extension for sharpness aware minimisation (SAM) with stable learning rate and perturbation radius across model widths. Experiments with MLPs, ResNets & ViTs.
-* [Extending μP: Spectral Conditions for Feature Learning Across Optimizers](https://openreview.net/forum?id=TfJ67nPJl2)
-* [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
 * [Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning](https://www.arxiv.org/abs/2602.06204)
 * [Hyperparameter Transfer Enables Consistent Gains of Matrix-Preconditioned Optimizers Across Scales](https://arxiv.org/abs/2512.05620)
 
