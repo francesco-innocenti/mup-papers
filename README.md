@@ -39,6 +39,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On the Provable Separation of Scales in Maximal Update Parameterization](https://openreview.net/forum?id=csB1njlpjM)
 * [A Proof of Learning Rate Transfer under μP](https://arxiv.org/abs/2511.01734)
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
+* [Optimal learning rate scaling depends on data in deep scalar linear networks](https://openreview.net/forum?id=ij3ZS20xMS)
 
 
 ## Spectral perspective
