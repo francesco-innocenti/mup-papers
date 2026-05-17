@@ -73,6 +73,9 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
 * [μpscaling small models: Principled warm starts and hyperparameter transfer](https://arxiv.org/abs/2602.10545)
+* [Scaling Probabilistic Transformer via Efficient Cross-Scale Hyperparameter Transfer](https://arxiv.org/abs/2604.25409)
+* [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
+* [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
 
 
 ## On weight decay
