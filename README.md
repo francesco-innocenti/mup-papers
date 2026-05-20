@@ -65,17 +65,21 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
 * [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
 * [On the Infinite Width and Depth Limits of Predictive Coding Networks](https://arxiv.org/abs/2602.07697)
-* [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
 * [Transfer Paramatters: Optimal per-Module Hyperparameters Across All Scaling Axes](https://openreview.net/forum?id=elB9k4nTL1)
 * [GQA-μP: The Maximal Parameterization Update for Grouped Query Attention and Fully Sharded Data Parallel](https://openreview.net/forum?id=UJB2uOS9MR)
 * [μLO: Compute-Efficient Meta-Generalization of Learned Optimizers](https://openreview.net/forum?id=f8z2bzOLK2)
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
-* [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
 * [μpscaling small models: Principled warm starts and hyperparameter transfer](https://arxiv.org/abs/2602.10545)
 * [Scaling Probabilistic Transformer via Efficient Cross-Scale Hyperparameter Transfer](https://arxiv.org/abs/2604.25409)
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
 * [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
+
+
+## Mixture of Experts (MoEs)
+* [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
+* [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
+* [How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization](https://arxiv.org/abs/2605.14200)
 
 
 ## On weight decay
