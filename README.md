@@ -75,6 +75,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Scaling Probabilistic Transformer via Efficient Cross-Scale Hyperparameter Transfer](https://arxiv.org/abs/2604.25409)
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
 * [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
+* [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
 
 
 ## Mixture of Experts (MoEs)
