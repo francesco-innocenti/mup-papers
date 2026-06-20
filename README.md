@@ -82,6 +82,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
 * [How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization](https://arxiv.org/abs/2605.14200)
+* [Why Routers Freeze: Infinite Width Learning Dynamics for Mixture of Experts](https://openreview.net/forum?id=AhwB471ARJ&referrer=%5Bthe%20profile%20of%20Volkan%20Cevher%5D(%2Fprofile%3Fid%3D~Volkan_Cevher1))
 
 
 ## On weight decay
