@@ -54,6 +54,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Effective Sharpness Aware Minimization Requires Layerwise Perturbation Scaling](https://openreview.net/forum?id=Qo6KUhQkPw): derives a μP extension for sharpness aware minimisation (SAM) with stable learning rate and perturbation radius across model widths. Experiments with MLPs, ResNets & ViTs.
 * [Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning](https://www.arxiv.org/abs/2602.06204)
 * [Hyperparameter Transfer Enables Consistent Gains of Matrix-Preconditioned Optimizers Across Scales](https://arxiv.org/abs/2512.05620)
+* [On the Width Scaling of Neural Optimizers Under Matrix Operator Norms I: Row/Column Normalization and Hyperparameter Transfer](https://arxiv.org/abs/2603.09952)
 
 
 ## Other architectures
