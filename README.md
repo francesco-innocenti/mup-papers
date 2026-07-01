@@ -77,7 +77,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
 * [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
 * [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
-
+* [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://openreview.net/forum?id=Q2tAR1xDFQ)
 
 ## Mixture of Experts (MoEs)
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
