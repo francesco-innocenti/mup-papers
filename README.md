@@ -71,13 +71,13 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [GQA-μP: The Maximal Parameterization Update for Grouped Query Attention and Fully Sharded Data Parallel](https://openreview.net/forum?id=UJB2uOS9MR)
 * [μLO: Compute-Efficient Meta-Generalization of Learned Optimizers](https://openreview.net/forum?id=f8z2bzOLK2)
 * [Arithmetic-Mean μP for Modern Architectures: A Unified Learning-Rate Scale for CNNs and ResNets](https://arxiv.org/abs/2510.04327)
-* [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://www.arxiv.org/abs/2602.07494)
+* [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://openreview.net/forum?id=Q2tAR1xDFQ)
 * [μpscaling small models: Principled warm starts and hyperparameter transfer](https://arxiv.org/abs/2602.10545)
 * [Scaling Probabilistic Transformer via Efficient Cross-Scale Hyperparameter Transfer](https://arxiv.org/abs/2604.25409)
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
 * [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
 * [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
-* [Hyperparameter Transfer Laws for Non-Recurrent Multi-Path Neural Networks](https://openreview.net/forum?id=Q2tAR1xDFQ)
+
 
 ## Mixture of Experts (MoEs)
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
