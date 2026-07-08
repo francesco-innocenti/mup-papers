@@ -47,6 +47,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [A Spectral Condition for Feature Learning](https://arxiv.org/abs/2310.17813): shows an interesting equivalence between μP and a certain scaling of the spectral norm of weight matrices and their updates. This partly inspired the [Muon optimiser](https://jeremybernste.in/writing/deriving-muon).
 * [Extending μP: Spectral Conditions for Feature Learning Across Optimizers](https://openreview.net/forum?id=TfJ67nPJl2)
 * [Towards a Principled Muon under μ𝖯: Ensuring Spectral Conditions throughout Training](https://arxiv.org/abs/2601.01306)
+* [Controlled LLM Training on Spectral Sphere](https://arxiv.org/abs/2601.08393)
 
 
 ## Other optimisers
