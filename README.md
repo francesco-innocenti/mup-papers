@@ -15,6 +15,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Spectral perspective](#spectral-perspective)
 * [Other optimisers](#other-optimisers)
 * [Other architectures](#other-architectures)
+* [Mixture of Experts](#moes)
 * [On weight decay](#on-weight-decay)
 * [Miscellaneous](#miscellaneous)
 * [Further resources](#further-resources)
