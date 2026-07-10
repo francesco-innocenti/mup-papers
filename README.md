@@ -42,6 +42,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Understanding the Mechanisms of Fast Hyperparameter Transfer](https://openreview.net/forum?id=Q7mLKxQ8qk)
 * [Optimal learning rate scaling depends on data in deep scalar linear networks](https://openreview.net/forum?id=ij3ZS20xMS)
 * [Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate](https://arxiv.org/abs/2605.21486)
+* [Fast Learning Rate Transfer for Gradient Descent in Sketched Linear Regression](https://openreview.net/forum?id=WMHm9bkItE)
 
 
 ## Spectral perspective
