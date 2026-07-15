@@ -113,6 +113,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [μP for RL: Mitigating Feature Inconsistencies During Reinforcement Learning](https://openreview.net/forum?id=Wuy631kHwH)
 * [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395)
 * [CompleteP for RL: Maintaining Feature Learning When Scaling Deep Reinforcement Learning](https://openreview.net/forum?id=3uXAGWqCny)
+* [Quantitative Gaussian-process Limits of Tensor Programs](https://arxiv.org/abs/2607.06290)
 
 
 ## Further resources
