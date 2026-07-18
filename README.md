@@ -82,6 +82,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
 * [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
 * [Hyperparameter Transfer in Graph Neural Networks](https://arxiv.org/abs/2607.05017)
+* [Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators](https://openreview.net/forum?id=fHt4Nau7FW)
 
 ## Mixture of Experts (MoEs)
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
