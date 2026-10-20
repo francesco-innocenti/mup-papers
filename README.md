@@ -61,16 +61,29 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [On the Width Scaling of Neural Optimizers Under Matrix Operator Norms I: Row/Column Normalization and Hyperparameter Transfer](https://arxiv.org/abs/2603.09952)
 
 
+## Recurrent models
+* [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
+* [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
+* [On the Infinite Width and Depth Limits of Predictive Coding Networks](https://arxiv.org/abs/2602.07697)
+* [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
+* [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
+* [DeepLoop: Depth Scaling for Looped Transformers](https://arxiv.org/abs/2607.13491?utm_source=chatgpt.com)
+* [Loop-μP: Residual Scaling and Hyperparameter Transfer in Looped Transformers](https://arxiv.org/abs/2606.18524?utm_source=chatgpt.com)
+
+
+## Mixture of Experts (MoEs)
+* [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
+* [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
+* [How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization](https://arxiv.org/abs/2605.14200)
+* [Why Routers Freeze: Infinite Width Learning Dynamics for Mixture of Experts](https://openreview.net/forum?id=AhwB471ARJ&referrer=%5Bthe%20profile%20of%20Volkan%20Cevher%5D(%2Fprofile%3Fid%3D~Volkan_Cevher1))
+
+
 ## Other architectures
 * [u-μP: The Unit-Scaled Maximal Update Parametrization](https://arxiv.org/abs/2407.17465): proposes a simple extension of μP for LLMs such that activations, weights and gradients have unit (rather than just constant) variance (u-μP) with respect to model width, showing that it helps with low-precision training.
 * [μnit Scaling: Simple and Scalable FP8 LLM Training](https://arxiv.org/abs/2502.05967): proposes a more efficient unit-scaled μP parameterisation for low-precision LLM training.
 * [Sparse maximal update parameterization: A holistic approach to sparse training dynamics](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3b6aaffec941f98930753fa6d6de7263-Abstract-Conference.html): derives a μP extension for random unstructured static (weight) sparsity with stable feature learning across both model widths and sparsity level. Experiments with LLMs.
 * [Scaling Diffusion Transformers Efficiently via μP](https://arxiv.org/abs/2505.15270)
 * [Optimal Embedding Learning Rate in LLMs: The Effect of Vocabulary Size](https://arxiv.org/abs/2506.15025)
-* [On Feature Learning in Structured State Space Models](https://openreview.net/forum?id=aQv5AbN1wF)
-* [Local Loss Optimization in the Infinite Width: Stable Parameterization of Predictive Coding Networks and Target Propagation](https://arxiv.org/abs/2411.02001)
-* [μPC: Scaling Predictive Coding to 100+ Layer Networks](https://arxiv.org/abs/2505.13124)
-* [On the Infinite Width and Depth Limits of Predictive Coding Networks](https://arxiv.org/abs/2602.07697)
 * [Transfer Paramatters: Optimal per-Module Hyperparameters Across All Scaling Axes](https://openreview.net/forum?id=elB9k4nTL1)
 * [GQA-μP: The Maximal Parameterization Update for Grouped Query Attention and Fully Sharded Data Parallel](https://openreview.net/forum?id=UJB2uOS9MR)
 * [μLO: Compute-Efficient Meta-Generalization of Learned Optimizers](https://openreview.net/forum?id=f8z2bzOLK2)
@@ -79,17 +92,8 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [μpscaling small models: Principled warm starts and hyperparameter transfer](https://arxiv.org/abs/2602.10545)
 * [Scaling Probabilistic Transformer via Efficient Cross-Scale Hyperparameter Transfer](https://arxiv.org/abs/2604.25409)
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
-* [Hyperparameter Transfer for Dense Associative Memories](https://arxiv.org/abs/2605.10164)
-* [Unlocking Feature Learning in Gated Delta Networks at Scale](https://arxiv.org/abs/2606.04048)
 * [Hyperparameter Transfer in Graph Neural Networks](https://arxiv.org/abs/2607.05017)
 * [Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators](https://openreview.net/forum?id=fHt4Nau7FW)
-
-
-## Mixture of Experts (MoEs)
-* [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
-* [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
-* [How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization](https://arxiv.org/abs/2605.14200)
-* [Why Routers Freeze: Infinite Width Learning Dynamics for Mixture of Experts](https://openreview.net/forum?id=AhwB471ARJ&referrer=%5Bthe%20profile%20of%20Volkan%20Cevher%5D(%2Fprofile%3Fid%3D~Volkan_Cevher1))
 
 
 ## On weight decay
