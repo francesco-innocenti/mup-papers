@@ -84,6 +84,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Hyperparameter Transfer in Graph Neural Networks](https://arxiv.org/abs/2607.05017)
 * [Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators](https://openreview.net/forum?id=fHt4Nau7FW)
 
+
 ## Mixture of Experts (MoEs)
 * [μ-Parametrization for Mixture of Experts](https://arxiv.org/abs/2508.09752)
 * [Hyperparameter Transfer with Mixture-of-Experts Layers](https://arxiv.org/abs/2601.20205)
@@ -116,6 +117,7 @@ The role of weight decay with respect to depth-transfer is discussed in the
 * [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395)
 * [CompleteP for RL: Maintaining Feature Learning When Scaling Deep Reinforcement Learning](https://openreview.net/forum?id=3uXAGWqCny)
 * [Quantitative Gaussian-process Limits of Tensor Programs](https://arxiv.org/abs/2607.06290)
+* [Fast Learning Rate Transfer in Shallow Linear Networks at Growing Training Horizons](https://arxiv.org/abs/2609.35029)
 
 
 ## Further resources
