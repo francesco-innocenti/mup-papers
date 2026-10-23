@@ -94,6 +94,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077)
 * [Hyperparameter Transfer in Graph Neural Networks](https://arxiv.org/abs/2607.05017)
 * [Maximal Update Parametrization and Zero-Shot Hyperparameter Transfer for Fourier Neural Operators](https://openreview.net/forum?id=fHt4Nau7FW)
+* [ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer](https://arxiv.org/abs/2610.15124)
 
 
 ## On weight decay
