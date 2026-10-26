@@ -33,6 +33,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit](https://arxiv.org/abs/2309.16620): concurrently with the previous paper, this proposed a slightly different depth-extension of μP using dynamical mean field theory (DMFT). Unlike Yang et al. (2024), they do not rescale the learning rate of Adam, but this rescaling is reintroduced in the next paper. Experiments with both CNNs and ViTs (with and without LayerNorm) on both CIFAR10 and ImageNet.
 * [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712): also relying on DMFT, derives width and depth limits for multi-head attention transformers, providing principled scalings for SGD and heuristic scalings for Adam.
 * [Don’t be lazy: CompleteP enables compute-efficient deep transformers](https://arxiv.org/abs/2505.01618): in contrast to previous depth extensions of μP, this proposes rescaling the residual transformer blocks by the depth (rather than its square root) based on both empirical results and a theoretical notion of non-lazy learning of all model layers. This parameterisation requires rescaling other quantities such as LayerNorm and Adam's weight decay parameter. Experiments with large-scale LLMs, also revealing new compute-optimal regimes.
+* [Width and Depth Limits Commute During Training](https://arxiv.org/abs/2610.30729)
 
 
 ## Understanding hyperparameter transfer
