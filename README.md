@@ -34,6 +34,7 @@ shrink nor explode) with the model size (i.e. width and depth).
 * [Infinite Limits of Multi-head Transformer Dynamics](https://arxiv.org/abs/2405.15712): also relying on DMFT, derives width and depth limits for multi-head attention transformers, providing principled scalings for SGD and heuristic scalings for Adam.
 * [Don’t be lazy: CompleteP enables compute-efficient deep transformers](https://arxiv.org/abs/2505.01618): in contrast to previous depth extensions of μP, this proposes rescaling the residual transformer blocks by the depth (rather than its square root) based on both empirical results and a theoretical notion of non-lazy learning of all model layers. This parameterisation requires rescaling other quantities such as LayerNorm and Adam's weight decay parameter. Experiments with large-scale LLMs, also revealing new compute-optimal regimes.
 * [Width and Depth Limits Commute During Training](https://arxiv.org/abs/2610.30729)
+* [Sliding Networks: A Family of Residual Structures Preserving Feature Learning and Feature Diversity](https://arxiv.org/abs/2610.33840)
 
 
 ## Understanding hyperparameter transfer
